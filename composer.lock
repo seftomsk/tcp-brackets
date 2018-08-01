@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3b19d5b55443f8103670733861495d08",
+    "packages": [
+        {
+            "name": "seftomsk/brackets",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seftomsk/brackets.git",
+                "reference": "a10bbfa86d62dd484393ef100dee3f5afdc0753c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seftomsk/brackets/zipball/a10bbfa86d62dd484393ef100dee3f5afdc0753c",
+                "reference": "a10bbfa86d62dd484393ef100dee3f5afdc0753c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seftomsk\\Brackets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Verkhovtsev",
+                    "email": "seftomsk@gmail.com"
+                }
+            ],
+            "time": "2018-07-31T14:39:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
